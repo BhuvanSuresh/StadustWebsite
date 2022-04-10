@@ -5236,9 +5236,10 @@ background: linear-gradient(90deg, rgba(81,81,82,1) 0%, rgba(12,12,12,1) 47%, rg
 .inner header h2{
   margin-top: 40px;
 }
+
 .box{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  /* grid-template-columns: repeat(2,1fr); */
   border-radius: 15px;
   margin: 25px 20px;
 }
@@ -5264,3 +5265,10 @@ background: linear-gradient(90deg, rgba(81,81,82,1) 0%, rgba(12,12,12,1) 47%, rg
   grid-template-columns: repeat(2,1fr);
   
 }
+
+/* this class is added just to align mission and vision cards */
+.vision-paragraph{
+  padding-top: 40px;
+    padding-bottom: 31px;
+}
+
